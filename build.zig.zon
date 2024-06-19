@@ -1,0 +1,20 @@
+.{
+    .name = "Tomodachi-con",
+    .version = "0.0.0",
+    .dependencies = .{
+        .@"microzig/build" = .{
+            .url = "https://downloads.microzig.tech/microzig-0.12.0/build-0.0.0.tar.gz",
+            .hash = "1220362d63876dd7ad88d0ee55ab24c2eb7fc49b0441703111d98d7b78bf315ebf70",
+        },
+        .@"microzig/bsp/raspberrypi/rp2040" = .{
+            .url = "https://downloads.microzig.tech/microzig-0.12.0/bsp/raspberrypi/rp2040-0.0.0.tar.gz",
+            .hash = "1220a7f44ffad57f0c59bfc4ae68632c274c5762795854dbe04dacbb086bb05856fa",
+        },
+    },
+    .paths = .{
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .minimum_zig_version = "0.12.0",
+}
